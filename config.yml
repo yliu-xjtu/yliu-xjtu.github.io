@@ -23,7 +23,7 @@ menu:
 
 params:
   profileMode:
-    enabled: true
+    enabled: false
     title: "刘杨"
     subtitle: "副教授 | 西安交通大学 网络空间安全学院"
     image: "/images/avatar.jpg"
