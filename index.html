@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>刘杨 - 西安交通大学</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--bg-color, #ffffff);
+            color: var(--text-color, #333333);
+            transition: background 0.3s, color 0.3s;
+        }
+
+        [data-color-mode="dark"] {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --card-bg: #2a2a2a;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            background: #ccc;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .nav a {
+            padding: 10px 20px;
+            background: var(--card-bg, #f5f5f5);
+            color: var(--text-color, #333);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav a:hover {
+            background: #4285f4;
+            color: white;
+        }
+
+        .card {
+            background: var(--card-bg, #f9f9f9);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .publication {
+            margin: 15px 0;
+            padding: 10px;
+            border-left: 3px solid #4285f4;
+        }
+
+        .google-btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background: #4285f4;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px;
+            background: var(--card-bg, #f5f5f5);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="container">
+        <header class="header">
+            <img src="images/avatar.jpg" alt="刘杨" class="avatar" onerror="this.style.display='none'">
+            <h1>刘杨</h1>
+            <p>副教授 | 西安交通大学 网络空间安全学院</p>
+            <p>📧 yangliu@xjtu.edu.cn</p>
+            <a href="https://scholar.google.com/citations?user=kLejFQUAAAAJ" class="google-btn">
+                <i class="fas fa-graduation-cap"></i> Google Scholar
+            </a>
+        </header>
+
+        <nav class="nav">
+            <a href="#home">首页</a>
+            <a href="#about">个人主页</a>
+            <a href="#publications">科研成果</a>
+            <a href="#tools">常用工具</a>
+            <a href="#students">招生培养</a>
+        </nav>
+
+        <section id="home" class="card">
+            <h2>🏠 首页</h2>
+            <p>刘杨，副教授，博士生导师。2019年6月获西安交通大学网络空间安全博士学位。2020年3月入职西安交通大学网络空间安全学院，2015~2017年在美国University of California, Riverside访问。</p>
+
+            <h3>研究方向</h3>
+            <ul>
+                <li>AI for Network Security (安全日志大数据分析)</li>
+                <li>AI for Data Security (CPS数据安全)</li>
+                <li>AI for CPS Security (CPS综合安全)</li>
+            </ul>
+
+            <h3>最新动态</h3>
+            <ul>
+                <li>2025-11-29: 信息物理系统与工业互联网安全论坛成功举办</li>
+                <li>2025-05-20: 恭喜学生参加全国大学生软件创新大赛获奖</li>
+            </ul>
+        </section>
+
+        <section id="about" class="card">
+            <h2>👤 个人主页</h2>
+            <h3>教育背景</h3>
+            <ul>
+                <li>2012-2019: 西安交通大学，工学博士</li>
+                <li>2008-2012: 西安交通大学，工学学士</li>
+                <li>2015-2017: University of California, Riverside，联合培养博士</li>
+            </ul>
+
+            <h3>讲授课程</h3>
+            <ul>
+                <li>高级图论</li>
+                <li>数字图像处理</li>
+                <li>信息物理融合系统</li>
+            </ul>
+
+            <h3>荣誉称号</h3>
+            <ul>
+                <li>2025年度中国能源研究会能源创新奖（科技进步一等奖）</li>
+                <li>2018年度IEEE Trans. on Smart Grid杰出审稿人</li>
+            </ul>
+        </section>
+
+        <section id="publications" class="card">
+            <h2>📚 科研成果</h2>
+            <h3>期刊论文</h3>
+            <div class="publication">
+                <strong>发电装备信息物理综合安全威胁机理与防御方法</strong><br>
+                <em>周罕琦, 刘烃, 李明佳, 刘杨, 等</em><br>
+                中国科学：信息科学, 2025<br>
+                <a href="#" class="google-btn">Google Scholar</a>
+            </div>
+            <div class="publication">
+                <strong>基于数据-机理双驱动的电网潮流信息推断与防御方法</strong><br>
+                <em>吴桐, 冯江琳, 杨雨洁, 王子骏, 刘杨, 刘烃, 管晓宏</em><br>
+                中国电机工程学报, 2025<br>
+                <a href="#" class="google-btn">Google Scholar</a>
+            </div>
+
+            <h3>会议论文</h3>
+            <div class="publication">
+                <strong>MuSAR: Multi-Step Attack Reconstruction from Lightweight Multi-source Logs</strong><br>
+                <em>Yang Liu, Zisen Xu, Zian Luo, 等</em><br>
+                RAID 2025<br>
+                <a href="https://github.com/zisenXu/MuSAR" class="google-btn">Code</a>
+                <a href="#" class="google-btn">Google Scholar</a>
+            </div>
+        </section>
+
+        <section id="tools" class="card">
+            <h2>🛠️ 常用工具</h2>
+            <h3>学术工具</h3>
+            <ul>
+                <li><strong>LaTeX:</strong> TeXLive、TeXStudio、Overleaf</li>
+                <li><strong>文献管理:</strong> Zotero、JabRef、Endnote</li>
+                <li><strong>绘图:</strong> Inkscape、Graphviz、GeoGebra</li>
+                <li><strong>PDF工具:</strong> SumatraPDF、Pandoc</li>
+            </ul>
+        </section>
+
+        <section id="students" class="card">
+            <h2>🎓 招生培养</h2>
+            <p>团队专注于从实际问题出发，将科研与应用相结合，常年招收网安、自动化、电气、计算机、软件等方向的博士生、硕士生。</p>
+
+            <h3>学生就业去向</h3>
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr style="background: var(--card-bg, #f0f0f0);">
+                    <th style="padding: 8px; border: 1px solid #ddd;">姓名</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">学历</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">毕业年份</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">去向</th>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;">周瑞彪</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">硕士</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">2022</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">小米科技</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;">徐子森</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">硕士</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">2025</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">杭州蚂蚁集团</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-color-mode');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-color-mode', newTheme);
+            localStorage.setItem('theme', newTheme);
+
+            const icon = document.querySelector('.theme-toggle i');
+            icon.className = newTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        }
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-color-mode', savedTheme);
+        const icon = document.querySelector('.theme-toggle i');
+        icon.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    </script>
+</body>
+</html>
