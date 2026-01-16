@@ -1,0 +1,45 @@
+baseURL: "https://yliu-xjtu.github.io/"
+languageCode: "zh-cn"
+title: "刘杨 - 西安交通大学"
+theme: "PaperMod"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "个人主页"
+      url: "/home/"
+      weight: 2
+    - name: "科研成果"
+      url: "/publications/"
+      weight: 3
+    - name: "常用工具"
+      url: "/tools/"
+      weight: 4
+    - name: "招生培养"
+      url: "/students/"
+      weight: 5
+
+params:
+  profileMode:
+    enabled: true
+    title: "刘杨"
+    subtitle: "副教授 | 西安交通大学 网络空间安全学院"
+    image: "/images/avatar.jpg"
+    buttons:
+      - name: "Google Scholar"
+        url: "https://scholar.google.com/citations?user=kLejFQUAAAAJ"
+  socialIcons:
+    - name: "Email"
+      url: "mailto:yangliu@xjtu.edu.cn"
+    - name: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=kLejFQUAAAAJ"
+  defaultTheme: "auto"
+  disableThemeToggle: false
+  showCodeCopyButtons: true
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"

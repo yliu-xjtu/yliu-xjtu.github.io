@@ -1,0 +1,394 @@
+journals:
+  - title: "发电装备信息物理综合安全威胁机理与防御方法"
+    authors: "周罕琦, 刘烃, 李明佳, 刘杨, 杨雨洁, 尚锦奥, 王文奇, 贾紫越, 管晓宏"
+    journal: "中国科学：信息科学"
+    year: 2025
+    type: "CCF T1类"
+    google_scholar: true
+
+  - title: "基于数据-机理双驱动的电网潮流信息推断与防御方法"
+    authors: "吴桐, 冯江琳, 杨雨洁, 王子骏, 刘杨, 刘烃, 管晓宏"
+    journal: "中国电机工程学报"
+    year: 2025
+    type: "电力领域顶刊"
+    google_scholar: true
+
+  - title: "电网公开数据关联下的拓扑泄露威胁和防御研究"
+    authors: "吴桐, 邢之熠, 王子骏, 刘杨, 赵毅涛, 黄菊, 张盾, 刘烃"
+    journal: "电网技术"
+    year: 2025
+    type: "电力领域顶刊"
+    google_scholar: true
+
+  - title: "Data Inference: Data Security Threats in the AI Era"
+    authors: "Zijun Wang, Ting Liu, Yang Liu, Enrico Zio, Xiaohong Guan"
+    journal: "Engineering"
+    year: 2025
+    type: "中国工程院院刊主刊"
+    google_scholar: true
+
+  - title: "DeepDRAC: Disposition Recommendation for Alert Clusters Based on Security Event Patterns"
+    authors: "Yang Liu, Gaofei Ruan, Zian Luo, Shilong Zhang, Donghao Liu, Xin Fan, Yadong Zhou, Ting Liu"
+    journal: "IEEE Transactions on Information Forensics & Security"
+    year: 2025
+    type: "CCF A类"
+    google_scholar: true
+
+  - title: "Privacy-Preserving Distributed Economic Dispatch Based on State Decomposition in Smart Grids"
+    authors: "Wentao Jin, Yadong Zhou, Bowen Hu, Yang Liu, Ting Liu"
+    journal: "IEEE Transactions on Industrial Informatics"
+    year: 2025
+    google_scholar: true
+
+  - title: "Passive Localization for Silent Intrusion Device in Fieldbus Network Based on Reflection-Based Group Fingerprint"
+    authors: "Xiangming Wang, Yang Liu, Long Meng, Pengfei Liu, Yu Qu, Ting Liu"
+    journal: "IEEE Transactions on Instrumentation & Measurement"
+    year: 2025
+    google_scholar: true
+
+  - title: "HyperLAC: Hypergraph-based Large-scale Alert Classification with Spatial-temporal Context Enhancement"
+    authors: "Shilong Zhang, Zian Luo, Zehua Ren, Yumeng Zhu, Haichuan Zhang, Yang Liu"
+    journal: "Knowledge-Based Systems"
+    year: 2025
+    google_scholar: true
+
+  - title: "Physical Intrusion Attack Detection in Fieldbus Network with Passive Fail-Safe Biasing"
+    authors: "Xiangming Wang, Yang Liu, Nanpeng Yu, Pengfei Liu, Nanyi Deng, Yanan Li, Ting Liu"
+    journal: "IEEE Transactions on Automation Science and Engineering"
+    year: 2025
+    google_scholar: true
+
+  - title: "On Stealthiness and Effectiveness of Moving Target Defense in Smart Grids"
+    authors: "Jiazhou Wang, Jue Tian, Gaoxi Xiao, Yang Liu, Hao Huang, Yadong Zhou, Ting Liu"
+    journal: "IEEE Transactions on Industrial Informatics"
+    year: 2025
+    google_scholar: true
+
+  - title: "Vulnerable Sequence Identification for Sequential Cascading Failure Analysis in Power Grid"
+    authors: "Sizhe He, Yadong Zhou, Yujie Yang, Xinlu Li, Yang Liu, Ting Liu"
+    journal: "IEEE Transactions on Industrial Informatics"
+    year: 2025
+    google_scholar: true
+
+  - title: "A Cyber-Physical Security Assessment Model for Distribution Grid with High Penetration of Electric Vehicle Charging Infrastructure"
+    authors: "Yujie Yang, Yadong Zhou, Yang Liu, Sizhe He, Nanpeng Yu, Jiaxuan Fei, Ting Liu, Xiaohong Guan"
+    journal: "IEEE Internet of Things Journal"
+    year: 2025
+    google_scholar: true
+
+  - title: "NEST: Network-Energy-Stress Threat against Thermal Energy Equipment"
+    authors: "Hanqi Zhou, Yalin He, Ting Liu, Yang Liu, Jingao Shang, Xiangming Wang"
+    journal: "IEEE Transactions on Automation Science and Engineering"
+    year: 2024
+    google_scholar: true
+
+  - title: "PIL-MDRS: Physical Intrusion Localization Based on Multidevice Reflection Signals in ICS"
+    authors: "Yang Liu, Long Meng, Xiangming Wang, Shenjian Qiu, Zhuo Lv, Pengfei Liu, Ting Liu"
+    journal: "IEEE Transactions on Industrial Informatics"
+    year: 2024
+    google_scholar: true
+
+  - title: "Data Inference from Publicly Available Data: Threats and Defense Methods in Power Systems"
+    authors: "Zijun Wang, Yang Liu, Nanpeng Yu, Qinqin Wu, Jiang Wu, Yadong Zhou, Ting Liu"
+    journal: "IEEE Transactions on Power Systems"
+    year: 2024
+    type: "电力领域顶刊"
+    google_scholar: true
+
+  - title: "A Dynamic and Static Combined State Recovery Method against FDI Attacks in Power Grids"
+    authors: "Jiazhou Wang, Jue Tian, Nanpeng Yu, Yang Liu, Haichuan Zhang, Yadong Zhou, Ting Liu"
+    journal: "IEEE Transactions on Smart Grid"
+    year: 2024
+    type: "电力领域顶刊"
+    google_scholar: true
+
+  - title: "Intrusion Device Detection in Fieldbus Networks based on Channel-State Group Fingerprint"
+    authors: "Xiangming Wang, Yang Liu, Kexin Jiao, Pengfei Liu, Xiapu Luo, Ting Liu"
+    journal: "IEEE Transactions on Information Forensics & Security"
+    year: 2024
+    type: "CCF A类"
+    google_scholar: true
+
+  - title: "Stealthy Data Integrity Attack against Consensus Based Distributed Energy Management Algorithm"
+    authors: "Wentao Jin, Yadong Zhou, Yang Liu, Ting Liu"
+    journal: "IEEE Transactions on Industrial Informatics"
+    year: 2024
+    google_scholar: true
+
+  - title: "CFDI: Coordinated False Data Injection Attack in Active Distribution Network"
+    authors: "Yang Liu, Chenyang Yang, Nanpeng Yu, Jiazhou Wang, Jue Tian, Hao Huang, Yadong Zhou, Ting Liu"
+    journal: "IET Generation, Transmission and Distribution"
+    year: 2024
+    google_scholar: true
+
+  - title: "数据推断: 信息物理融合系统数据泄露威胁范式和防御方法"
+    authors: "刘烃, 王子骏, 刘杨, 周亚东, 吴江, 鲍远义, 吴桐, 管晓宏"
+    journal: "中国科学：信息科学"
+    year: 2023
+    type: "CCF T1类"
+    google_scholar: true
+
+  - title: "Multi-stage Moving Target Defense: A Security-enhanced D-FACTS Implementation Approach"
+    authors: "Jiazhou Wang, Jue Tian, Yang Liu, Xiaohong Guan, Dong Yang, Ting Liu"
+    journal: "IEEE Internet of Things Journal"
+    year: 2023
+    google_scholar: true
+
+  - title: "A Reflection-Based Channel Fingerprint to Locate Physically Intrusive Devices in ICS"
+    authors: "Pengfei Liu, Yang Liu, Xiangming Wang, Yuanyi Bao, Dong Yang, Wenqing Wang, Tong Wu, Zhuo Lv, Ting Liu"
+    journal: "IEEE Transactions on Industrial Informatics"
+    year: 2022
+    google_scholar: true
+
+  - title: "ConcSpectre: Be Aware of Forthcoming Malware Hidden in Concurrent Programs"
+    authors: "Yang Liu, Zisen Xu, Ming Fan, Yu Hao, Kai Chen, Hao Chen, Yan Cai, Zijiang Yang, Ting Liu"
+    journal: "IEEE Transactions on Reliability"
+    year: 2022
+    google_scholar: true
+
+  - title: "Real-time pricing response attack in smart grid"
+    authors: "Yang Liu, Jue Tian, Xiaoshu Yuan, Binger Ye, Zi Sang, Xiangzhen Yao, Lin Li, Ting Liu"
+    journal: "IET Generation, Transmission and Distribution"
+    year: 2022
+    google_scholar: true
+
+  - title: "Channel-State-Based Fingerprinting against Physical Access Attack in Industrial Field Bus Network"
+    authors: "Pengfei Liu, Yang Liu, Xiangming Wang, Chao Fang, Xiaohong Guan, Ting Liu"
+    journal: "IEEE Internet of Things Journal"
+    year: 2022
+    google_scholar: true
+
+  - title: "电力系统安全仿真技术:工程安全、网络安全与信息物理综合安全"
+    authors: "王子骏, 刘杨, 鲍远义, 管晓宏, 吴桐, 卢建刚, 余志文, 袁晓舒, 刘烃"
+    journal: "中国科学：信息科学"
+    year: 2022
+    type: "CCF T1类"
+    google_scholar: true
+
+  - title: "能源装备的网络安全要素分析"
+    authors: "袁晓舒, 吴桐, 刘杨, 管晓宏"
+    journal: "东方电气评论"
+    year: 2021
+    google_scholar: true
+
+  - title: "Hidden electricity theft by exploiting multiple-pricing scheme in smart grids"
+    authors: "Yang Liu, Ting Liu, Hong Sun, Kehuan Zhang, Pengfei Liu"
+    journal: "IEEE Transactions on Information Forensics and Security (TIFS)"
+    year: 2020
+    type: "CCF A类"
+    google_scholar: true
+
+  - title: "分布式电源接入场景下的电网振荡攻击建模与检测"
+    authors: "刘杨, 桂宇虹, 安豆, 管晓宏, 刘烃"
+    journal: "信息安全学报"
+    year: 2019
+    type: "CCF T2类"
+    google_scholar: true
+
+  - title: "Coordinating the operations of smart buildings in smart grids"
+    authors: "Yang Liu, Nanpeng Yu, Wei Wang, Xiaohong Guan, Zhanbo Xu, Bing Dong, Ting Liu"
+    journal: "Applied Energy"
+    year: 2018
+    google_scholar: true
+
+  - title: "A dynamic secret-based encryption scheme for smart grid wireless communication"
+    authors: "Ting Liu, Yang Liu, Yashan Mao, Yao Sun, Xiaohong Guan, Weibo Gong, Sheng Xiao"
+    journal: "IEEE Transactions on Smart Grid"
+    year: 2014
+    type: "电力领域顶刊"
+    google_scholar: true
+
+  - title: "Abnormal traffic-indexed state estimation: A cyber-physical fusion approach for smart grid attack detection"
+    authors: "Ting Liu, Yanan Sun, Yang Liu, Yuhong Gui, Yuchen Zhao, Dai Wang, Chao Shen"
+    journal: "Future Generation Computer Systems"
+    year: 2015
+    google_scholar: true
+
+  - title: "智能电网安全实验平台: 设计, 实现与仿真"
+    authors: "刘烃, 孙鸿, 刘杨, 程海军, 姜丕杰"
+    journal: "武汉大学学报：理学版"
+    year: 2014
+    google_scholar: true
+
+conferences:
+  - title: "MuSAR: Multi-Step Attack Reconstruction from Lightweight Multi-source Logs via Event-Level Semantic Association"
+    authors: "Yang Liu, Zisen Xu, Zian Luo, Jin'ao Shang, Shilong Zhang, Haichuan Zhang, Ting Liu"
+    conference: "RAID 2025"
+    year: 2025
+    code: "https://github.com/zisenXu/MuSAR"
+    google_scholar: true
+
+  - title: "PhysiKKT-Net: A KKT-based Neural Network with Guaranteed Compliance for Real-Time Power Flow Analysis"
+    authors: "Qingbin Jiang, Jianglin Feng, Zijun Wang, Haichuan Zhang, Siqi Meng, Ziyue Jia, Yujie Yang, Yang Liu"
+    conference: "IEEE CRESS 2025"
+    year: 2025
+    google_scholar: true
+
+  - title: "Identification of Cyber-Physical Security Boundary for Rotating Bearings under Attacks Using PINNs"
+    authors: "Ziyue Jia, Yiying Tao, Hanqi Zhou, Siqi Meng, Yuheng Li, Qingao Yuan, Yang Liu"
+    conference: "IEEE CRESS 2025"
+    year: 2025
+    google_scholar: true
+
+  - title: "Anomaly Detection for Sensor Data in Cyber-Physical Energy Systems Based on Time-Series Prediction and Heuristic Segmentation"
+    authors: "Yuanyi Bao, Zixu Wei, Zijun Wang, Yitao Zhao, Yuheng Li, Yang Liu"
+    conference: "YAC2025"
+    year: 2025
+    google_scholar: true
+
+  - title: "Power Data Correlation Analysis based on Maximal Information Coefficient"
+    authors: "Zhiyi Xing, Zijun Wang, Jianglin Feng, Yitao Zhao, Maoliang Li, Yang Liu"
+    conference: "YAC2025"
+    year: 2025
+    google_scholar: true
+
+  - title: "A Hybrid Query-Efficient Black-Box Adversarial Attack on Power System Event Classifiers"
+    authors: "Yuanbin Cheng, Koji Yamashita, Nanpeng Yu, Yang Liu"
+    conference: "IEEE SmartGridComm 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "A Cybersecurity Entity Recognition Method for Enhancing Situation Awareness in Power Systems"
+    authors: "Chenwei Yang, Youfeng Niu, Hao Huang, Shilong Zhang, Xiaozhi Deng, Yunfan Yang, Qinqin Wu, Yang Liu"
+    conference: "NEESSC 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "A Reflection-based Channel-State Group Fingerprint to Detect Intrusion Devices in ICS"
+    authors: "Long Meng, Xiangming Wang, Shenjian Qiu, Pengfei Liu, Nanyi Deng, Yang Liu"
+    conference: "ICNSC 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "Long-Periodicity Detection from Massive Alarms in Power System"
+    authors: "Yunfan Yang, Xinyu Yang, Hao Huang, Shilong Zhang, Qinqin Wu, Yanan Li, Zhenwei Gu, Yang Liu"
+    conference: "ICNSC 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "Active-Passive-Combined Anomaly Detection in Electricity-Carbon Blockchain Trading System under Limited Bandwidth"
+    authors: "Tong He, Shilong Zhang, Zisen Xu, Gaofei Ruan, Jin'Ao Shang, Zian Luo, Xinyu Yang, Yang Liu"
+    conference: "ICNSC 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "URL-SemCom: An Alert Identification Model Based on URL Semantic Comprehension"
+    authors: "Hao Huang, Jin'Ao Shang, Zi'An Luo, Xiaozhi Deng, Yunfan Yang, Qinqin Wu, Chenwei Yang, Yang Liu"
+    conference: "ICNSC 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "Physical Intrusion Detection via Signal Reflection in Fieldbus Network"
+    authors: "Hao Huang, Long Meng, Xiangming Wang, Chenwei Yang, Famao Mei, Qinqin Wu, Tengteng Ma, Yang Liu"
+    conference: "ICCC'24"
+    year: 2024
+    google_scholar: true
+
+  - title: "MNSSA: Meso-level Network Security Situation Awareness for ICS via Graph Evolution Analysis"
+    authors: "Shilong Zhang, Hui Zhang, Guo Chen, He Luo, Meiqi Wu, Hongxiang Chen, Zehua Ren, Zijun Wang, Yang Liu"
+    conference: "CASE 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "A Positive-Unlabeled Learning Approach for Detecting Malicious In-app Purchases on the App Store"
+    authors: "Bowen Hu, Yadong Zhou, Yang Liu, Ting Liu, Xiaohong Guan"
+    conference: "CASE 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "A Virtual Primary Key Generation Scheme Based on Dimensionality Reduction and Encoding for Digital Fingerprinting"
+    authors: "Weiwei Tan, Bowen Hu, Yadong Zhou, Sizhe He, Yang Liu, Ting Liu, Xiaohong Guan"
+    conference: "CASE 2024"
+    year: 2024
+    google_scholar: true
+
+  - title: "Topology Consistency Verification in Power System Based on Data Inference"
+    authors: "Zixu Wei, Xiaoshu Yuan, Zijun Wang, Ziyi Xing, Yang Liu, Yadong Zhou, Ting Liu"
+    conference: "IEEE EEPS 2023"
+    year: 2023
+    google_scholar: true
+
+  - title: "Adaptive Physical Access Detection against Ambient Temperature Variation"
+    authors: "An Zhou, Kexin Jiao, Famao Mei, Zhenwei Gu, Hao Huang, Yuanyi Bao, Yang Liu"
+    conference: "ICPS 2023"
+    year: 2023
+    google_scholar: true
+
+  - title: "Moving Target Defense Oriented D-FACTS Deployment and Operation"
+    authors: "Zhen Yu, Binger Ye, Jiazhou Wang, Yang Liu, Yinguo Yang, Qiuyu Lu, Yu Zhu, Shuangxi Wu, Yang Liu"
+    conference: "ISGT-Asia 2022"
+    year: 2022
+    google_scholar: true
+
+  - title: "An Enhanced EWMA for Alert Reduction and Situation Awareness in Industrial Control Networks"
+    authors: "Baoxiang Jiang, Yang Liu, Huixiang Liu, Zehua Ren, Yun Wang, Yuanyi Bao, Wenqing Wang"
+    conference: "CASE 2022"
+    year: 2022
+    google_scholar: true
+
+  - title: "Network Security Situation Awareness Based on Spatio-temporal Correlation of Alarms"
+    authors: "Zehua Ren, Yang Liu, Huixiang Liu, Baoxiang Jiang, Xiangzhen Yao, Lin Li, Haiwen Yang, Ting Liu"
+    conference: "IEEE Infocom Demo 2022"
+    year: 2022
+    google_scholar: true
+
+  - title: "Adaptive Detection Method for Physical Access Attack against Temperature Interference"
+    authors: "Kexin Jiao, Yang Liu, Xiangming Wang, Pengfei Liu, Xiangzhen Yao, Lin Li"
+    conference: "ACPEE 2022"
+    year: 2022
+    google_scholar: true
+
+  - title: "ConcSpectre: Be Aware of Forthcoming Malware Hidden in Concurrent Programs"
+    authors: "Yang Liu, Ming Fan, Ting Liu, Yu Hao, Zisen Xu, Kai Chen, Hao Chen, Yan Cai"
+    conference: "QRS 2021"
+    year: 2021
+    award: "Best Paper Award"
+    google_scholar: true
+
+  - title: "Smart building energy management using nonlinear economic model predictive control"
+    authors: "Mohammad Ostadijafari, Anamika Dubey, Yang Liu, Jie Shi, Nanpeng Yu"
+    conference: "IEEE PES General Meeting 2019"
+    year: 2019
+    google_scholar: true
+
+  - title: "Spatio-temporal modeling of electric loads"
+    authors: "Jie Shi, Yang Liu, Nanpeng Yu"
+    conference: "NAPS 2017"
+    year: 2017
+    google_scholar: true
+
+  - title: "Evaluation of frequency regulation provision by commercial building HVAC systems"
+    authors: "Yang Liu, Nanpeng Yu, Jie Shi, Bing Dong, Wei Ren, Xiaohong Guan"
+    conference: "CASE 2017"
+    year: 2017
+    google_scholar: true
+
+  - title: "Scheduling of air conditioner based on real time price and real-time temperature"
+    authors: "Zeeshan Haider, Faisal Mehmood, Xiaohong Guan, Jiang Wu, Yang Liu, Pervez Bhan"
+    conference: "CCDC 2015"
+    year: 2015
+    google_scholar: true
+
+  - title: "SEDE: State estimation-based dynamic encryption scheme for smart grid communication"
+    authors: "Ting Liu, Yuhong Gui, Yanan Sun, Yang Liu, Yao Sun, Feng Xiao"
+    conference: "SAC 2014"
+    year: 2014
+    google_scholar: true
+
+  - title: "Security risks evaluation toolbox for smart grid devices"
+    authors: "Yang Liu, Jiahe Liu, Ting Liu, Xiaohong Guan, Yanan Sun"
+    conference: "ACM SIGCOMM 2013"
+    year: 2013
+    google_scholar: true
+
+  - title: "A cyber-physical monitoring system for attack detection in smart grid"
+    authors: "Yanan Sun, Xiaohong Guan, Ting Liu, Yun Gu, Yanan Sun, Yang Liu"
+    conference: "INFOCOM Demo 2013"
+    year: 2013
+    google_scholar: true
+
+  - title: "A survey on bad data injection attack in smart grid"
+    authors: "Dai Wang, Xiaohong Guan, Ting Liu, Yun Gu, Yanan Sun, Yang Liu"
+    conference: "APPEEC 2013"
+    year: 2013
+    google_scholar: true

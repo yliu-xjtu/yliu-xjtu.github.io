@@ -1,0 +1,22 @@
+/* 中文字体优化 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "Segoe UI", Roboto, sans-serif;
+}
+
+/* 论文卡片样式 */
+.publication-card {
+    padding: 1rem;
+    border-left: 3px solid #2563eb;
+    margin-bottom: 1rem;
+    background: var(--card-bg);
+}
+
+/* Google Scholar 按钮 */
+.google-scholar-btn {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: #4285f4;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}

@@ -1,0 +1,20 @@
+# Hugo generated files
+public/
+resources/_gen/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Build files
+*.min.css
+*.min.js
