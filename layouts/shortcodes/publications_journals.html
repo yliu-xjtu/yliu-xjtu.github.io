@@ -1,6 +1,8 @@
+<ul>
 {{ $journals := index (index .Site.Data "publications") "journals" }}
 {{ range $journals }}
-- **{{ .title }}**  
-  {{ .authors }}  
-  {{ .journal }}, {{ .year }}
+  <li><strong>{{ .title }}</strong><br>
+  {{ .authors }}<br>
+  <em>{{ .journal }}</em>, {{ .year }}</li>
 {{ end }}
+</ul>

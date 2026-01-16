@@ -1,12 +1,18 @@
+<h3>期刊论文</h3>
+<ul>
 {{ $journals := index (index .Site.Data "publications") "journals" | first 5 }}
-{{ $conferences := index (index .Site.Data "publications") "conferences" | first 5 }}
 {{ range $journals }}
-- **{{ .title }}**  
-  {{ .authors }}  
-  {{ .journal }}, {{ .year }}
+  <li><strong>{{ .title }}</strong><br>
+  {{ .authors }}<br>
+  <em>{{ .journal }}</em>, {{ .year }}</li>
 {{ end }}
+</ul>
+<h3>会议论文</h3>
+<ul>
+{{ $conferences := index (index .Site.Data "publications") "conferences" | first 5 }}
 {{ range $conferences }}
-- **{{ .title }}**  
-  {{ .authors }}  
-  {{ .conference }}, {{ .year }}
+  <li><strong>{{ .title }}</strong><br>
+  {{ .authors }}<br>
+  <em>{{ .conference }}</em>, {{ .year }}</li>
 {{ end }}
+</ul>

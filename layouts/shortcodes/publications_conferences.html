@@ -1,6 +1,8 @@
+<ul>
 {{ $conferences := index (index .Site.Data "publications") "conferences" }}
 {{ range $conferences }}
-- **{{ .title }}**  
-  {{ .authors }}  
-  {{ .conference }}, {{ .year }}
+  <li><strong>{{ .title }}</strong><br>
+  {{ .authors }}<br>
+  <em>{{ .conference }}</em>, {{ .year }}</li>
 {{ end }}
+</ul>
