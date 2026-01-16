@@ -15,7 +15,7 @@ Xi'an Jiaotong University, Xi'an, China, 710049
 
 ## Biography
 
-Yang Liu is an Associate Professor of School of Cyber Science and Engineering at Xi'an Jiaotong University. He received the B.S. degree in Automation and the Ph.D. degree from the School of Electronic and Information, Xi'an Jiaotong University, in 2012 and 2019, respectively. From September 2015 to April 2017, he was a visiting scholar with the Department of Electrical and Computer Engineering, University of California, Riverside. His research interests include Network Security, CPS Security, Data Security, Big Data Analysis.
+Yang Liu is an Associate Professor of School of Cyber Science and Engineering at Xi'an Jiaotong University. He received the B.S. degree in Automation and the Ph.D. degree from the School of Electronic and Information, Xi'an Jiaotong University, in 2012 and 2019, respectively. From September 2015 to April 2017, he was a visiting scholar with the Department of Electrical and Computer Engineering, University of California, Riverside. His research interests include Network Security, CPS Security, Data Security, Big Data Analysis. He is the Young Editorial Board Member of *Journal of Cyber Security* and *Journal of Xi'an Jiaotong University*. He was awarded as one of the best reviewers of *IEEE Transactions on Smart Grid* in 2018.
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=kLejFQUAAAAJ)
 
@@ -48,5 +48,5 @@ Yang Liu is an Associate Professor of School of Cyber Science and Engineering at
 
 ## Visiting Experience
 
-**University of California, Riverside** (2015-2017)  
+**University of California, Riverside** (September 2015 - April 2017)  
 Visiting Scholar, Department of Electrical and Computer Engineering
