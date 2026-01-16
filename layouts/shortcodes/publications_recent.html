@@ -1,0 +1,12 @@
+{{ $journals := index (index .Site.Data "publications") "journals" | first 5 }}
+{{ $conferences := index (index .Site.Data "publications") "conferences" | first 5 }}
+{{ range $journals }}
+- **{{ .title }}**  
+  {{ .authors }}  
+  {{ .journal }}, {{ .year }}
+{{ end }}
+{{ range $conferences }}
+- **{{ .title }}**  
+  {{ .authors }}  
+  {{ .conference }}, {{ .year }}
+{{ end }}
