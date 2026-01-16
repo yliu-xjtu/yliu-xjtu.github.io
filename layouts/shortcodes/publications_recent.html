@@ -1,0 +1,19 @@
+{{- $pubs := slice -}}
+{{- range .Site.Data.publications.journals -}}
+  {{- $pubs = $pubs | append (dict "title" .title "authors" .authors "venue" .journal "year" .year "type" .type "google" .google_scholar) -}}
+{{- end -}}
+{{- range .Site.Data.publications.conferences -}}
+  {{- $pubs = $pubs | append (dict "title" .title "authors" .authors "venue" .conference "year" .year "type" .type "google" .google_scholar) -}}
+{{- end -}}
+{{- $sorted := sort $pubs "year" "desc" -}}
+{{- $recent := first 5 $sorted -}}
+
+<ul>
+  {{- range $recent -}}
+    <li>
+      <strong>{{ .title }}</strong><br>
+      {{ .authors }}<br>
+      {{ .venue }} ({{ .year }}){{ with .type }} · {{ . }}{{ end }}{{ if .google }} · <a href="https://scholar.google.com/scholar?q={{ urlquery .title }}">Google Scholar</a>{{ end }}
+    </li>
+  {{- end -}}
+</ul>
