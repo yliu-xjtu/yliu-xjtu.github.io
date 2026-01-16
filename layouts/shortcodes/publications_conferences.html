@@ -1,0 +1,10 @@
+{{- $conferences := sort .Site.Data.publications.conferences "year" "desc" -}}
+<ol>
+  {{- range $conferences -}}
+    <li>
+      <strong>{{ .title }}</strong><br>
+      {{ .authors }}<br>
+      {{ .conference }} ({{ .year }}){{ with .type }} · {{ . }}{{ end }}{{ if .code }} · <a href="{{ .code }}">Code</a>{{ end }}{{ if .google_scholar }} · <a href="https://scholar.google.com/scholar?q={{ urlquery .title }}">Google Scholar</a>{{ end }}
+    </li>
+  {{- end -}}
+</ol>

@@ -1,0 +1,10 @@
+{{- $journals := sort .Site.Data.publications.journals "year" "desc" -}}
+<ol>
+  {{- range $journals -}}
+    <li>
+      <strong>{{ .title }}</strong><br>
+      {{ .authors }}<br>
+      {{ .journal }} ({{ .year }}){{ with .type }} · {{ . }}{{ end }}{{ if .google_scholar }} · <a href="https://scholar.google.com/scholar?q={{ urlquery .title }}">Google Scholar</a>{{ end }}
+    </li>
+  {{- end -}}
+</ol>

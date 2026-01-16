@@ -2,6 +2,7 @@ baseURL: "https://yliu-xjtu.github.io/"
 languageCode: "zh-cn"
 title: "刘杨 - 西安交通大学"
 theme: "PaperMod"
+layoutDir: "layouts"
 
 menu:
   main:
